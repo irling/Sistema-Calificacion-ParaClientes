@@ -1,0 +1,82 @@
+.logo-ctic{
+    width: 25%;
+}
+.logos-footer{
+    width: 10em;
+}
+.logos-footer-mpsa{
+    width: 21em;
+}
+.main{
+    background-color: #efe6df;
+}
+
+.padding{
+    padding: 1em 0px 1em 0px;
+}
+.padding-2{
+    padding: 2em 0px 2em 0px;
+}
+
+h4{
+    text-align: center;
+    color: #F58838 ;
+    padding: 2em 0px 2em 0px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.calificacion-form ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calificacion-form li{
+    display: inline-block;
+    margin:0 2em;
+}
+.calificacion-form ul li label{
+    display: inline-block;
+    border: 1px solid #b1b2cf;
+    color: #3E4095;
+    font-weight: bold;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.4s all ease;
+    padding: 8px 12px;
+}
+
+.calificacion-form ul li label:hover{
+
+    border: 1px solid #F58838;
+    background-color: #F58838;
+    color: white;
+}
+
+.calificacion-form ul li input[type="checkbox"]:checked + label{
+    border: 1px solid #F58838;
+    background-color: #F58838;
+    color: white;
+}
+
+.calificacion-form ul li input[type="checkbox"]{
+    opacity: 0;
+}
+
+.button-send-ctic{
+    border-radius: 10px!;
+    background-color: #F58838;
+    border: 1px solid #F58838 ;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+.button-send-ctic:hover{
+    background-color: #fa7a1f;
+}
