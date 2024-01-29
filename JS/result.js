@@ -48,7 +48,9 @@ miCheckbox4.addEventListener("click", function(){
     }
 });
 
-document.getElementById("msg").style.color = "#fa7a1f"
+//DAR COLOR AL inner.Text
+
+document.getElementById("msg").style.color = "#3E4095"
 document.getElementById("msg").style.fontWeight = "bold"
 document.getElementById("msg").style.fontSize = "1.5em"
 
