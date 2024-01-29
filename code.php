@@ -3,7 +3,8 @@
 function ConectarBD(){
     $servidor ="localhost";
     $usuario ="root";
-    $clave="root";
+    $clave="";
+    //$clave="root"; warpserver --
     $bd="prueba";
     $cnx=mysqli_connect($servidor,$usuario,$clave,$bd);
     return $cnx;
