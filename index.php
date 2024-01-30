@@ -8,6 +8,7 @@
     <title>Califiquenos</title>
     <link rel="stylesheet" href="http://localhost/sistema-ctic/css/index.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href=/medias/mediaQueris-index.css>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>

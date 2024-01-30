@@ -54,7 +54,7 @@ document.getElementById("msg").style.color = "#3E4095"
 document.getElementById("msg").style.fontWeight = "bold"
 document.getElementById("msg").style.fontSize = "1.5em"
 
-document.getElementById("msg2").style.color = "#F4A890"
+document.getElementById("msg2").style.color = "#3E4095"
 document.getElementById("msg2").style.fontWeight = "bold"
 document.getElementById("msg2").style.fontSize = "1em"
 document.getElementById("msg2").style.paddingLeft = "3em"
