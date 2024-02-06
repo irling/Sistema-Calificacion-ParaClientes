@@ -119,3 +119,36 @@ h4{
         flex-wrap: nowrap;
     }
 }
+@media (max-width: 320px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column;
+    } 
+    .calificacion-form li {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .text_area{
+        width: 16em;
+    }
+    .logos-footer-mpsa {
+        width: 9em;
+    }
+    .logos-footer {
+        width: 3em;
+    }
+    .msg-generate{
+        font-size: 0.9em !important;
+        padding-left: 0.5em !important;
+    }
+    .msg-generate-two{
+        font-size: 0.7em !important;
+        padding-left: 0.5em !important;
+    }
+    .first-text h4{
+        font-size: 1em;
+    }
+}

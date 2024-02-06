@@ -19,7 +19,7 @@
                 <div class="container padding center">
                     <img class="logo-ctic" src="img/logo-ctic-MarcaRegistrada.png" alt="">
                 </div>
-                <div class="col">
+                <div class="col first-text">
                     <h4>¿Qué tan satisfecho está con la resolución de su problema? *</h4>
                 </div>
             </div>
@@ -37,8 +37,8 @@
                             </ul>
                         </div>
 
-                        <div class="center" id="msg"></div>
-                        <div class="container" id="msg2"></div>
+                        <div class="center msg-generate" id="msg"></div>
+                        <div class="container msg-generate-two" id="msg2"></div>
 
                         <div class="calificacion-form col">
                             <div class="container center padding">
