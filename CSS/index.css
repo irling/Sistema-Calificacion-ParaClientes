@@ -23,6 +23,12 @@ h4{
     color: #F58838 ;
     padding: 2em 0px 2em 0px;
 }
+.msg-generate{
+    text-align: center !important;
+}
+.msg-generate-two{
+    text-align: center !important;
+}
 
 .center{
     display: flex;
@@ -119,6 +125,58 @@ h4{
         flex-wrap: nowrap;
     }
 }
+
+
+@media (max-width: 390px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+    }       
+    .text_area{
+        width: 22em;
+    }
+    .calificacion-form li {
+        display: inline-block;
+        margin: 0;
+    }
+    .logo-ctic{
+        width: 65%;
+    }
+    .logos-footer-mpsa {
+        width: 10em;
+    }
+    .logos-footer {
+        width: 5em;
+    }
+    .footer_section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 376px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+    }  
+    .text_area{
+        width: 22em;
+    }
+
+    .msg-generate{
+        font-size: 1em !important;
+        padding-left: 0.5em !important;
+        text-align: center !important;
+    }
+    .msg-generate-two{
+        font-size: 0.7em !important;
+        padding-left: 0.5em !important;
+        text-align: center !important;
+    }
+}
+
 @media (max-width: 320px){
     .calificacion-form ul{
         display: flex;
