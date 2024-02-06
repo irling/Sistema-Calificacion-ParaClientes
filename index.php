@@ -13,7 +13,7 @@
 
 </head>
 <body>
-        <div id="main" class="container">
+        <div class="main container">
 
             <div class="container main-logo">
                 <div class="container padding center">
@@ -42,7 +42,7 @@
 
                         <div class="calificacion-form col">
                             <div class="container center padding">
-                                <textarea maxlength="150" name="comentarios" rows="5" cols="60" ></textarea>
+                                <textarea class="text_area" maxlength="150" name="comentarios" rows="5" cols="60" ></textarea>
                             </div>
                             <div class="container center padding">
                                 <button class="button-send-ctic" type="submit" name="send-botton">Enviar</button>
@@ -53,7 +53,7 @@
             </div>
 
             <footer class="padding-2">
-                <div class="container row">
+                <div class="footer_section container">
                     <div class="col center">
                         <img class="logos-footer " src="img/9001.png" alt="">
                     </div>

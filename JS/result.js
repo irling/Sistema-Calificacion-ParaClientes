@@ -50,7 +50,7 @@ miCheckbox4.addEventListener("click", function(){
 
 //DAR COLOR AL inner.Text
 
-document.getElementById("msg").style.color = "#3E4095"
+document.getElementById("msg").style.color = "#F58838"
 document.getElementById("msg").style.fontWeight = "bold"
 document.getElementById("msg").style.fontSize = "1.5em"
 
