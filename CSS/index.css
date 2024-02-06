@@ -25,6 +25,7 @@ h4{
 }
 .msg-generate{
     text-align: center !important;
+    transition: ease-in 2s !important;
 }
 .msg-generate-two{
     text-align: center !important;
