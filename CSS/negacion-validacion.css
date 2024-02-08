@@ -1,5 +1,5 @@
 p{
-    color: rgb(243, 232, 232);
+    color: #F58838;
     font-weight: bold;
 }
 a{
@@ -7,7 +7,7 @@ a{
 }
 
 button{
-    background-color: gray;
+    background-color: blue;
     border-radius: 15%;
 }
 
@@ -15,4 +15,129 @@ button{
     display: flex;
     align-items: center;
     justify-content: center; 
+}
+
+
+
+@media (max-width: 768px){
+    .logo-ctic{
+        width: 30%;
+    }
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }  
+}
+
+@media (max-width: 430px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }       
+    .text_area{
+        width: 24em;
+    }
+    .calificacion-form li {
+        display: inline-block;
+        margin: 0;
+    }
+    .logo-ctic{
+        width: 65%;
+    }
+    .logos-footer-mpsa {
+        width: 10em;
+    }
+    .logos-footer {
+        width: 5em;
+    }
+    .footer_section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media (max-width: 390px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+    }       
+    .text_area{
+        width: 22em;
+    }
+    .calificacion-form li {
+        display: inline-block;
+        margin: 0;
+    }
+    .logo-ctic{
+        width: 65%;
+    }
+    .logos-footer-mpsa {
+        width: 10em;
+    }
+    .logos-footer {
+        width: 5em;
+    }
+    .footer_section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 376px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0;
+    }  
+    .text_area{
+        width: 22em;
+    }
+
+    .msg-generate{
+        font-size: 1em !important;
+        padding-left: 0.5em !important;
+        text-align: center !important;
+    }
+    .msg-generate-two{
+        font-size: 0.7em !important;
+        padding-left: 0.5em !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 320px){
+    .calificacion-form ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        flex-direction: column;
+    } 
+    .calificacion-form li {
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .text_area{
+        width: 16em;
+    }
+    .logos-footer-mpsa {
+        width: 9em;
+    }
+    .logos-footer {
+        width: 3em;
+    }
+    .msg-generate{
+        font-size: 0.9em !important;
+        padding-left: 0.5em !important;
+    }
+    .msg-generate-two{
+        font-size: 0.7em !important;
+        padding-left: 0.5em !important;
+    }
+    .first-text h4{
+        font-size: 1em;
+    }
 }

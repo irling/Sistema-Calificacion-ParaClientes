@@ -88,6 +88,43 @@ h4{
     background-color: #fa7a1f;
 }
 
+/*====================================================== */
+/*===================VALIDACION HTML====================== */
+/*====================================================== */
+.btn_confirmación{
+    background-color:#fa7a1f;
+    border: none;
+    padding: 0.5em;
+}
+
+.btn_confirmación a{
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+}
+.btn_confirmación a:hover{
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+}
+.agradecimiento{
+    padding-top: 11em;
+    padding-bottom: 11em;
+}
+.v_txt h4{
+    font-weight: bold;
+    color: #fa7a1f;
+}
+
+.n_txt h4{
+    font-weight: bold;
+    color: #3E4095;
+}
+/*====================================================== */
+/*===================MEDIA QUERIES====================== */
+/*====================================================== */
 
 @media (max-width: 768px){
     .logo-ctic{
