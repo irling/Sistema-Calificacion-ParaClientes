@@ -23,6 +23,10 @@ h4{
     color: #F58838 ;
     padding: 2em 0px 2em 0px;
 }
+h2{
+    text-align: center;
+    color: #F58838 ;
+}
 .msg-generate{
     text-align: center !important;
     transition: ease-in 2s !important;
@@ -109,12 +113,12 @@ h4{
     font-style: none;
     text-decoration: none;
 }
+
 .agradecimiento{
     padding-top: 11em;
     padding-bottom: 11em;
 }
 .v_txt h4{
-    font-weight: bold;
     color: #fa7a1f;
 }
 
@@ -246,5 +250,13 @@ h4{
     }
     .first-text h4{
         font-size: 1em;
+    }
+    .v_txt h2{
+        color: #fa7a1f;
+        font-size: 1.3em;
+    }
+    .v_txt h4{
+        color: #fa7a1f;
+        font-size: 0.8em;
     }
 }
